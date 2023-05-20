@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "this-is-a-login-fuctionality;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3005447400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Demoblaze \u003c\"URL\"\u003e Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.open_Demoblaze_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2045531800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Login",
+            "match": {
+              "location": "Login.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2202869600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username and Password and Click Login2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 43
+                }
+              ],
+              "location": "Login.enter_Username_and_Password_and_Click_Login(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2030988400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify user login successfully",
+            "match": {
+              "location": "Login.verify_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a Login Fuctionality",
+    "description": "",
+    "id": "this-is-a-login-fuctionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
